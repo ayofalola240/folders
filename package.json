@@ -1,0 +1,47 @@
+{
+  "name": "logistics",
+  "version": "1.0.0",
+  "description": "This project implement the logistics services for delivery trucks",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayofalola240/Logistics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayofalola240/Logistics/issues"
+  },
+  "homepage": "https://github.com/ayofalola240/Logistics#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compressed": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2",
+    "unrest": "^2.3.2",
+    "validator": "^13.6.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
